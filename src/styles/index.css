@@ -9,3 +9,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.barra__escritura {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    background-image:  url(https://static.vecteezy.com/system/resources/previews/024/677/957/non_2x/cancel-delete-cross-icon-3d-free-png.png);
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+   
+    animation: barra-animacion 1s ease infinite;
+}
+
+
+
+/* Barra de escritura animation ---------------------------------------------*/
+
+@keyframes barra-animacion {
+    50% {
+        height: 20px;
+        
+    }
+}
